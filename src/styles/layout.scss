@@ -1,0 +1,44 @@
+.base-layout {
+  .layout-header {
+    height: 48px;
+    line-height: 48px;
+    padding: 0 16px;
+    display: flex;
+    color: #fff;
+
+    & > * {
+      height: 100%;
+    }
+  }
+
+  .layout-header-logo {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      font-size: 18px;
+      line-height: normal;
+      color: #fff;
+      margin: 0 0 0 12px;
+    }
+  }
+
+  .layout-header-action {
+    height: 48px;
+    padding: 0 12px;
+    cursor: pointer;
+
+    .anticon {
+      font-size: 18px;
+    }
+
+    &:hover {
+      background: #252a3d;
+    }
+  }
+  .ant-page-header {
+    margin-left: -24px;
+    margin-right: -24px;
+    margin-top: -24px;
+  }
+}

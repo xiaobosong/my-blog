@@ -1,0 +1,77 @@
+.sign-container {
+  background-image: url(https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg);
+  background-repeat: no-repeat;
+  background-position: center 110px;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+  background-color: #f0f2f5;
+}
+
+.sign-content {
+  padding: 112px 0 24px;
+  flex: 1 1;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    height: 60px;
+    vertical-align: top;
+    margin-right: 16px;
+  }
+  .title {
+    font-size: 33px;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+  }
+  .desc {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    margin-top: 12px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .main {
+    width: 368px;
+    margin: 0 auto;
+  }
+
+  .signin-input-prefix {
+    color: rgba(0, 0, 0, 0.25);
+    margin-right: 0px;
+  }
+  .signin-input {
+    height: 48px;
+    font-size: 20px;
+
+    input {
+      font-size: inherit;
+      padding: 0 10px !important;
+    }
+  }
+  .signin-submit-btn {
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+  }
+
+  .valid-form {
+    display: flex;
+    gap: 8px;
+
+    .valid-input {
+    }
+
+    .valid-img {
+      height: 48px;
+      cursor: pointer;
+    }
+  }
+}
